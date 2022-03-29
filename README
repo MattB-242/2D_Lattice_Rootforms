@@ -1,4 +1,4 @@
-The code in this repository can calculate the root form of a 2D lattice, proved to be an invariant up to isometry and change of basis in [1], as well as the G-chirality and distance between two lattices derived from the root form described in the same paper. It also enables you to plot the coordinates of a lattice in the quotient square and spherical maps outlined in [2]
+The code in this repository can calculate the root form of a 2D lattice, proved to be an invariant up to isometry and change of basis in [1], as well as the G-chirality and distance between two lattices derived from the root form described in the same paper. It also enables you to plot the coordinates of a lattice in the quotient square and spherical maps outlined in [2], and conduct inverse design frm a root form or projected form to reconstitute a lattice (up to scaling in the case of a projected form). 
 
 The code requires mostly standard python packages, although the core module from Pymatgen [3] is used to shorten the process of generating an obtuse superbase by ensuring that the algorithm begins from a Niggli reduced lattice 
 
